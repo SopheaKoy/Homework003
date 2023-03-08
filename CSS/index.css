@@ -1,0 +1,172 @@
+.Hero {
+    background-image: url(../images/bg.jpg);
+    height: 700px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    font-family: 'Kantumruy', sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 28px;
+    align-items: center;
+}
+
+a {
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.sticky {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Kantumruy', sans-serif;
+    font-size: 15px;
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Header {
+    background-color: black;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.Font1 {
+    color: #3E54AC;
+    text-align: center;
+    font-family: 'Kantumruy', sans-serif;
+}
+
+body {
+    /* margin: 0; */
+    padding: 0;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Kantumruy', sans-serif;
+    font-weight: 600;
+}
+
+.Font2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-item {
+    background-image: url(../images/sea-g22b75d488_1920.jpg);
+    width: 500px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.box-container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.IMG {
+    width: 400px;
+    height: 600px;
+    float: right;
+    padding-right: 120px;
+}
+
+.section-2 {
+    color: #3E54AC;
+    text-align: center;
+    font-family: 'Kantumruy', sans-serif;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 20px;
+    color: #3E54AC;
+    text-align: center;
+    font-family: 'Kantumruy', sans-serif;
+}
+
+h1 {
+    color: #3E54AC;
+    font-size: 40px;
+    font-family: 'Kantumruy', sans-serif;
+    text-align: center;
+}
+
+.box1 {
+    background-color: #3E54AC;
+    height: 200px;
+    width: 200px;
+}
+
+.box2 {
+    height: 200px;
+    width: 200px;
+    background-image: url(../images/people.png);
+    background-position: center;
+    background-size: contain;
+    padding-top: 100px;
+}
+
+.box3 {
+    height: 200px;
+    width: 200px;
+    background-image: url(../images/people.png);
+}
+
+.box4 {
+    height: 200px;
+    width: 200px;
+    background-image: url(../images/people.png);
+}
+
+.section-Container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Font3 {
+    color: #3E54AC;
+    font-family: 'Kantumruy', sans-serif;
+}
+
+.container3 {
+    color: #3E54AC;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-icon {
+    align-items: center;
+}
+
+.row {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contect {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
